@@ -1,3 +1,5 @@
 # Run 
 ## docker run
-    docker run -p 5400:80 react-app
+    docker build -t react-app .
+---
+    docker run -d -p 5400:80 react-app
